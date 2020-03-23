@@ -1,0 +1,115 @@
+/* Tag Selectors */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  background-color: #FAFAFA;
+  text-align: center;
+}
+
+/* ID Selectors */
+#main-container {
+  margin-top: 50px;
+}
+
+/* Class Selectors */
+.light-header {
+  font-weight: 200;
+  color: #4C4E61;
+  font-size: 35px;
+}
+
+.bold-header {
+  font-weight: 600;
+  color: #4C4E61;
+  font-size: 35px;
+}
+
+.light-text {
+  font-weight: 200;
+  color: #A3A5AE;
+}
+
+.Intro-paragraph {
+  width: 45%;
+  margin: 30px auto;
+}
+
+@media screen and (max-width: 600px) {
+  .Intro-paragraph {
+    width: 70%;
+    font-size: 17px;
+  }
+
+  .light-header {
+    font-size: 28px;
+  }
+
+  .main-header {
+    font-size: 28px;
+  }
+}
+
+/* Cards */
+.card {
+  width: 350px;
+  height: 250px;
+  margin: 20px auto;
+  text-align: left;
+  box-shadow: 2px 4px 3px #eaf5ff, 2px 5px 20px #f1f3f4;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.card-header {
+  padding: 0;
+  border-width: 0;
+  height: 5px;
+}
+
+.card-header-cyan {
+  background-color: #45D3D3;
+  height: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.card-header-red {
+  background-color: #EA5353;
+  height: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.card-header-yellow {
+  background-color: #FCAF4A;
+  height: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.card-header-blue {
+  background-color: #549EF2;
+  height: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.card-icon {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+}
